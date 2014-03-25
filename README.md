@@ -1,7 +1,7 @@
-QUICKSTART-HTML
-A quick way to start a new HTML project
+#QUICKSTART-HTML  
+##A quick way to start a new HTML project  
 
-Includes:
+####Includes:  
 -css, js, and img folders  
 -normalize.css and style.css (for custom styling)  
 -script.js (for custom scripts)  
