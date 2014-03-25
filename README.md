@@ -1,5 +1,5 @@
 #QUICKSTART-HTML  
-##A quick way to start a new HTML project  
+####*A quick way to start a new HTML project*  
 
 ####Includes:  
 -css, js, and img folders  
