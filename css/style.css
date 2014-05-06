@@ -1,1 +1,117 @@
-/* Place your custom styles here */
+/*------------------------------------*\
+    $TABLE-OF-CONTENTS
+\*------------------------------------*/
+
+/**
+ * TABLE-OF-CONTENTS............You’re reading it!
+ * SITE-WIDE...............Site wide declarations (html, body, box layout model)
+ * TYPOGRAPHY...........Sets sizes and styles for type elements (h1-h3, p, a, blockquote etc.)
+ * WRAPPERS...........Biggie & Tupac set percentage widths for page, and posts.
+ * ELEMENTS...........Universal elements (island, hr, figure, image, button)
+ * NAV...........The navigation menu and the footer
+ * MEDIA-QUERIES...........Media-queries, mostly resizing font-sizes
+ */
+
+/*------------------------------------*\
+    $SITE-WIDE
+\*------------------------------------*/
+
+html {
+    font-size: 62.5%;
+    /* Keeps page centered in all browsers regardless of content height */
+    -webkit-text-size-adjust: 100%;
+    /* Prevents iOS text size adjust after orientation change, without disabling user zoom */
+    -ms-text-size-adjust: 100%;
+    /* www.456bereastreet.com/archive/201012/controlling_text_size_in_safari_for_ios_without_disabling_user_zoom/ */
+}
+body {
+		-webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #222;
+    font-size: 16px;
+    font-size:1.6rem;
+    line-height:1.5;
+    font-family:'Merriweather', Georgia, 'Times New Roman', Times, serif;
+}
+h1, h2, h3, h4 {
+    font-family:'Raleway', sans-serif;
+}
+img, embed, object, video {
+    max-width:100%;
+}
+
+h1 {
+    font:normal 700 5rem/5rem'Raleway' sans-serif;
+    text-align: center;
+}
+h2 {
+    font:normal 400 3.1rem/5rem'Raleway' sans-serif;
+}
+h3 {
+    font:normal 700 2.4rem/3.8rem'Raleway' sans-serif;
+    margin-bottom:1.9rem;
+}
+p {
+    font:normal 400 1.9rem/2.8rem'Merriweather' serif;
+    color:#333;
+    color: rgba(51, 51, 51, 0.80);
+    margin-bottom: 2.7rem;
+    text-align: left;
+}
+.caption {
+    font:italic 400 1.5rem/2.4rem'Merriweather' serif;
+    text-align: center;
+    margin-bottom: 0;
+    margin:0 auto;
+    max-width:90%;
+    max-width:90vh;
+}
+blockquote {
+    margin: 1.5em 10px;
+    padding: 0.5em 10px;
+    quotes:"\201C""\201D""\2018""\2019";
+}
+blockquote:before {
+    color: #ccc;
+    content: open-quote;
+    font-size: 4rem;
+    line-height: 0.1rem;
+    margin-right: 0.25rem;
+    vertical-align: -1.2rem;
+}
+blockquote p {
+    display: inline;
+    font-style: italic;
+}
+strong {
+    font-weight: 700;
+}
+em {
+    font-style: italic;
+}
+.centered {
+    text-align:center;
+}
+a {
+    font:normal 400 1.9rem/2.8rem'Merriweather' serif;
+    color: #444;
+    text-decoration: none;
+    border-bottom: 1px solid #222;
+    outline: 0;
+    cursor: pointer;
+}
+a:hover, a:focus, a:active {
+    border-style: dotted;
+}
+
+.code {
+    padding: 1.1rem;
+    border: .2rem solid #dae0a7;
+    background: #eef2ca;
+    color: #ccc;
+    color: rgba(34,34,34, .8);
+    white-space: pre;
+    font-size: 1.6rem;
+    font-family: 'Consolas', monospace;
+    line-height: 1.35;
+}
